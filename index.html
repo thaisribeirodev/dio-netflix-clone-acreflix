@@ -1,0 +1,167 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style/main.css">
+
+    <!--favicon-->
+    <link rel="shortcut icon" href="../favicon48x48.ico" type="image/x-icon">
+
+    <!--responsividade-->
+    <link rel="stylesheet" href="style/responsive.css">
+
+    <!--owl css-->
+    <link rel="stylesheet" href="style/owl/owl.carousel.min.css">
+    <link rel="stylesheet" href="style/owl/owl.theme.default.min.css">
+
+    <!--modal box-->
+    <link rel="stylesheet" href="style/modal-box.css">
+
+    <!--google fonts-->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Roboto&display=swap" rel="stylesheet"> 
+    <link href="https://fonts.googleapis.com/css2?family=Anton&display=swap" rel="stylesheet"> 
+
+    
+
+    <title>ACREFLIX</title>
+</head>
+<body>
+    <header>
+        <div class="container">
+            <h2 class="logo">ACREFLIX</h2>
+            <nav>
+                <a href="/">Início</a>
+                <a href="#pontos-turisticos">Pontos Turísticos</a>
+                <a href="#culinaria">Culinária</a>
+            </nav>
+        </div>
+    </header>
+
+    <main>
+        <div class="filme-principal">
+            <div class="container">
+                <h3 class="titulo">Estado do Acre</h3>
+                <h3>Região Norte do Brasil</h3>
+                <p class="descricao">
+                    "O Acre é um dos 27 estados brasileiros, tendo sido elevado a essa condição no ano de 1962. Antes de ser anexado ao Brasil, ele pertencia à Bolívia e ao Peru. Localiza-se na Região Norte, no bioma Amazônia, e o clima predominante é o equatorial úmido.
+                    <br>O estado é um grande exportador de castanha-do-pará e madeira, além de ser o principal produtor de borracha do país."                    
+                    <br>
+                    <cite>
+                        <a href="https://mundoeducacao.uol.com.br/geografia/acre.htm" 
+                        target="_blank" id="citando-link">Fonte: Mundo Educação</a>
+                    </cite>
+                </p>
+
+                <div>
+                    <!-- id="myBtn": Abre o modal-->
+                    <button id="myBtn" role="button" class="botao">
+                        <i class="fas fa-play"></i>
+                        ASSISTIR AGORA
+                        
+                    </button>
+
+                    <!-- O Modal -->
+                    <div id="myModal" class="modal">
+                        <!-- Modal content -->
+                        <div class="modal-content">
+                            <span class="close">&times;</span>
+                            <iframe width="560" height="315" 
+                                src="https://www.youtube.com/embed/-3KMafr1a88" 
+                                title="YouTube video player" frameborder="0" 
+                                allow="accelerometer; autoplay; clipboard-write; encrypted-media; 
+                                gyroscope; picture-in-picture" 
+                                allowfullscreen>
+                            </iframe>
+                        </div>
+                    </div>
+
+
+                    <a href="https://brasilescola.uol.com.br/brasil/acre.htm" target="_blank">
+                        <button role="button" class="botao">
+                            <i class="fas fa-info-circle"></i>
+                            MAIS INFORMAÇÕES                   
+                        </button>
+                    </a>
+                </div>
+            </div>
+        </div>
+    </main>
+
+    <div class="carrosel-filmes">
+        <h1 id="pontos-turisticos">Pontos Turísticos</h1>
+        
+        <div class="owl-carousel owl-theme">
+                <div class="item">
+                    <img class="box-filme" src="img/pontos-turisticos/1.png" alt="Palácio Rio Branco" title="Palácio Rio Branco">
+                </div>
+                <div class="item">
+                    <img class="box-filme" src="img/pontos-turisticos/2.png" alt="Praça da Revolução" title="Praça da Revolução">
+                </div>
+                <div class="item">
+                    <img class="box-filme" src="img/pontos-turisticos/3.png" alt="Biblioteca Pública" title="Biblioteca Pública">
+                </div>
+                <div class="item">
+                    <img class="box-filme" src="img/pontos-turisticos/4.png" alt="Parque Capitão Ciríaco" title="Parque Capitão Ciríaco">
+                </div>
+                <div class="item">
+                    <img class="box-filme" src="img/pontos-turisticos/5.png" alt="Calçadão da Gameleira" title="Calçadão da Gameleira">
+                </div>
+                <div class="item">
+                    <img class="box-filme" src="img/pontos-turisticos/6.png" alt="Novo Mercado Velho" title="Novo Mercado Velho">
+                </div>
+                <div class="item">
+                    <img class="box-filme" src="img/pontos-turisticos/7.png" alt="Calçadão da Gameleira" title="Calçadão da Gameleira">
+                </div>
+
+        </div>
+    </div>
+
+    <div class="carrosel-filmes">
+        <h1 id="culinaria">Culinária</h1>
+        
+        <div class="owl-carousel owl-theme">
+            <div class="item">
+                <img class="box-filme" src="img/culinaria/1.png" alt="Tacacá" title="Tacacá">
+            </div>
+            <div class="item">
+                <img class="box-filme" src="img/culinaria/2.png" alt="Charuto" title="Charuto">
+            </div>
+            <div class="item">
+                <img class="box-filme" src="img/culinaria/3.png" alt="Baixaria" title="Baixaria">
+            </div>
+            <div class="item">
+                <img class="box-filme" src="img/culinaria/4.png" alt="Bananinha frita" title="Bananinha frita">
+            </div>
+            <div class="item">
+                <img class="box-filme" src="img/culinaria/5.png" alt="Bobó de camarão" title="Bobó de camarão">
+            </div>
+            <div class="item">
+                <img class="box-filme" src="img/culinaria/6.png" alt="Pirarucu à casaca" title="Pirarucu à casaca">
+            </div>
+            <div class="item">
+                <img class="box-filme" src="img/culinaria/7.png" alt="Rabada no tucupi" title="Rabada no tucupi">
+            </div>
+
+        </div>
+    </div>
+
+    <footer>
+        <p>
+            Developed by <a href="https://www.linkedin.com/in/thaisribeirodev/" target="_blank">Thaís Ribeiro</a>
+        </p> 
+    </footer>
+
+    
+    <script src="https://kit.fontawesome.com/2c36e9b7b1.js"></script>
+    <script src="js/owl/jquery.min.js"></script>
+    <script src="js/owl/owl.carousel.min.js"></script>
+    <script src="js/owl/setup.js"></script>
+   
+    <script src="js/modal-box.js"></script>
+
+ 
+</body>
+</html>
