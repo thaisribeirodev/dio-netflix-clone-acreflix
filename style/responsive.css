@@ -1,0 +1,25 @@
+/*abaixo de 700px o header .container vai empurrar as opções do menu para baixo 
+do título principal da página (ACREFLIX)*/
+@media screen and (max-width:700px){
+    header .container{
+    display: flex;
+    flex-direction: column;
+    }
+
+    .botao{
+        margin-top: 5px;
+        width: 300px;
+    }
+
+}
+
+/*tamanho de tela (largura):
+de 1000px pra cima, vai aplicar a configuração abaixo: */
+@media screen and (min-width:1000px){
+    .descricao{
+        width: 50%;
+    }
+}
+
+
+

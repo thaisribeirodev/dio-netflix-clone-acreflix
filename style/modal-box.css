@@ -1,0 +1,68 @@
+/* The Modal (background) */
+.modal {
+    display: none; /* Hidden by default */
+    position: fixed; /* Stay in place */
+    z-index: 1; /* Sit on top */
+    padding-top: 100px; /* Location of the box */
+    left: 0;
+    top: 0;
+    width: 100%; /* Full width */
+    height: 100%; /* Full height */
+    overflow: auto; /* Enable scroll if needed */
+    background-color: rgb(0,0,0); /* Fallback color */
+    background-color: rgba(0,0,0,0.4); /* Black w/ opacity */
+  }
+  
+  /* Modal Content */
+  .modal-content {
+    background-color: #fefefe;
+    margin: auto;
+    padding: 20px;
+    border: 1px solid #888;
+    width: 50%; /*80%*/
+  }
+  
+  /* The Close Button */
+  .close {
+    color: #aaaaaa;
+    float: right;
+    font-size: 28px;
+    font-weight: bold;
+  }
+  
+  .close:hover,
+  .close:focus {
+    color: #000;
+    text-decoration: none;
+    cursor: pointer;
+  }
+
+
+/* Abaixo de 998px o tamanho do player do vídeo vai acompanhar o modal-box ocupando sempre 100% do modal*/
+@media screen and (max-width:998px){
+  iframe {
+    /*display: flex;*/
+    width: 100%;
+    
+  }
+
+}
+
+/*tamanho de tela (largura):
+de 1000px pra cima, vai aplicar a configuração abaixo: */
+@media screen and (min-width:1000px){
+    iframe {
+        width: 100%;
+    }
+}
+
+
+/* Abaixo de 768px o tamanho do player do vídeo vai acompanhar o modal-box ocupando 80% do modal*/
+@media screen and (max-width:768px){
+  .modal-content {
+    /*display: flex;*/
+    width: 90%;
+    
+  }
+
+}
